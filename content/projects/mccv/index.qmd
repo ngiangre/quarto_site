@@ -1,0 +1,7 @@
+---
+title: "MCCV"
+subtitle: Clinical machine learning
+listing: 
+  - type: default
+image: "mccv_scheme.jpg"
+---

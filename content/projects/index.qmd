@@ -1,0 +1,32 @@
+---
+title: ""
+subtitle: This is where I till my projects and collect my musings
+page-layout: custom
+listing:
+  - id: projects
+    contents: "index.qmd"
+    type: table
+    fields: [image, title, subtitle]
+    image-height: 10em
+    grid-columns: 5
+    grid-item-border: true
+    grid-item-align: center
+    sort-ui: false
+---
+
+::: grid
+::: {.g-col-md-10 .g-start-md-2}
+# 🌳Welcome to my digital garden🌳
+
+**This is where I tend to personal and open source projects. I'm a scientist who loves to investigate the world! Projects are a mixture of scientific communication, coding, and maybe just a collection of writings. Additionally, I may just write a post to record a nascent idea, announcement, standalone essay, or the beginning of a new project! I'll use GitHub to keep track of progress as well as discussion with others interested in this digital space. I hope you enjoy your stay in my digital space** 😁
+:::
+
+::: {.panel-tabset .g-col-md-10 .g-start-md-2}
+# Projects
+
+::: {#projects}
+:::
+
+# Posts
+:::
+:::

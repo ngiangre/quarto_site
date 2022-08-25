@@ -1,0 +1,7 @@
+---
+title: "Buffalo"
+subtitle: Exploring the city throug data
+listing: 
+  - type: default
+image: "open_data_buffalo.png"
+---

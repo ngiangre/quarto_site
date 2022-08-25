@@ -1,0 +1,42 @@
+---
+title: "Pediatric Drug Safety"
+subtitle: Research, data, and analyses
+image: "med_cover.jpeg"
+---
+
+```{r,echo=FALSE,fig.height=3,fig.width=3}
+
+data.frame(
+    header = c(
+        "Pediatric Drug Safety Database",
+        "Pediatric Drug Safety portal"
+        ),
+    title = c(
+        "R data package for downloading and extracting drug safety signals during childhood",
+        "Web application for accessing drug safety signals during childhood"
+        ),
+    tags = c(
+        "package",
+        "app"
+    ),
+    link = c(
+        "http://nickg.bio/PDSdatabase/",
+        "https://pdsportal.shinyapps.io/pdsportal/"
+    ),
+    image = c(
+        "images/db.png",
+        "images/computer.png"
+    )
+) |>
+    bs4cards::cards(
+        title = title,
+        header = header,
+        tags = paste0("all; ",tags),
+        link = link,
+        image = image,
+        width = 1,
+        border_width=1,
+        layout = "label-right",
+        spacing=1
+    )
+```
