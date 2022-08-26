@@ -1,18 +1,18 @@
 /* css styles */
 .navbar-title
 {
-  font-size: 36px;
+  font-size: 24px;
 }
 .nav-item
 {
-  font-size: 36px;
+  font-size: 24px;
 }
 .bi
 {
-  font-size: 36px;
+  font-size: 24px;
 }
 .quarto-search {
-    font-size: 36px;
+    font-size: 24px;
 }
 .navbar-nav > li{
   padding-left:10px;
