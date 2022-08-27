@@ -17,11 +17,10 @@ website:
         href: https://github.com/ngiangre
       - icon: linkedin
         href: https://www.linkedin.com/in/nickgiangreco/
-    right:
-      - text: "Projects"
-        file: content/projects/index.qmd
       - text: "About"
         file : content/about/index.qmd
+      - text: "Projects"
+        file: content/projects/index.qmd
       - text: "CV"
         href: content/cv/Nicholas_Giangreco_CV.pdf
   page-footer:

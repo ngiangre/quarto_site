@@ -28,6 +28,7 @@ ul.task-list{list-style: none;}
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
@@ -58,7 +59,7 @@ ul.task-list{list-style: none;}
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -82,13 +83,11 @@ ul.task-list{list-style: none;}
 </i> 
  </a>
   </li>  
-</ul>
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="../../content/projects/index.html">Projects</a>
-  </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../../content/about/index.html" aria-current="page">About</a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../content/projects/index.html">Projects</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../content/cv/Nicholas_Giangreco_CV.pdf">CV</a>
@@ -100,45 +99,35 @@ ul.task-list{list-style: none;}
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
 <!-- main -->
-<div class="quarto-about-trestles page-columns page-full column-body">
-  <div class="about-entity">
-    <img src="headshot.png" class="about-image
-  rounded " style="width: 50em;">
-  </div>
-  <div class="about-contents page-columns page-full"><main class="content page-columns page-full column-body" id="quarto-document-content">
-<div class="column-screen" style="font-size:36px">
+
+
+
+<div class="column-screen" style="text-align: center; font-size:36px">
+<p><img src="headshot.png" class="img-fluid" style="width:30.0%"></p>
 <p style="font-size:60px">
-</p><p><strong>Hi, I’m Nick 👋</strong></p>
-<p></p>
+<strong>Hi, I’m Nick 👋</strong>
+</p>
 <p>
-</p><p><strong>I am a data scientist, life-long learner, and student of life.</strong></p>
-<p><br>
-</p>
-<p><strong>Currently, I work as a (remote) Quantitative Translational Scientist at Regeneron Pharmaceuticals. Previously, I was a Systems Biology PhD student at Columbia University in New York City.</strong></p>
-<p><br>
-</p>
-<p><strong>My homebase is Buffalo, New York, where, as a native of the “All America City”, I am paradoxically indifferent to snow and a very cold person 😬</strong></p>
-<p><br>
-</p>
-<p><strong>Outside of work, I enjoy spending time with my family, my partner, and carving out time for my hobbies.</strong></p>
-<p><br>
-</p>
-<p><strong>I’m also interested in rehabilitative science. As <a href="https://www.wgrz.com/article/life/wny-native-continues-recovery-from-stroke/244046774">a stroke survivor</a>, I like learning about how the body re-learns movement patterns through <a href="http://www.koppelemethod.com/">pilates</a>.</strong></p>
+</p><p><strong>I am a data science enthusiast, life-long learner, and student of life. Currently, I work as a (remote) Quantitative Translational Scientist at Regeneron Pharmaceuticals. Previously, I was a Systems Biology PhD student at Columbia University in New York City. My homebase is Buffalo, New York, where, as a native of the “All America City”, I am paradoxically indifferent to snow and a very cold person 😬. Outside of work, I enjoy spending time with my family, my partner, and carving out time for my hobbies. I’m also interested in rehabilitative science. As <a href="https://www.wgrz.com/article/life/wny-native-continues-recovery-from-stroke/244046774">a stroke survivor</a>, I like learning about how the body re-learns movement patterns through <a href="http://www.koppelemethod.com/">pilates</a>.</strong></p>
 <p></p>
 </div>
-<p>:::</p>
 
 
-</main></div>
-</div>
- <!-- /main -->
+
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;
