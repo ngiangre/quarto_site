@@ -5,7 +5,7 @@ page-layout: custom
 
 
 ::: {.column-screen style="text-align: center; font-size:27px"}
-![](headshot.png){width=500px max-width=100%}
+![](headshot.png){width=400px max-width=100%}
 
 <p style="font-size:48px">
 **Hi, I'm Nick 👋**
