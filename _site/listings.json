@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/content/projects/pds/index.html",
+    "items": [
+      "/content/projects/pds/pdsdatabase.html"
+    ]
+  },
+  {
     "listing": "/content/projects/index.html",
     "items": [
       "/content/projects/buffalo/index.html",

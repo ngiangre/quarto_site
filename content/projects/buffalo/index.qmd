@@ -1,7 +1,7 @@
 ---
 title: "Buffalo"
-subtitle: Exploring the city throug data
+subtitle: Exploring the city through data
 listing: 
   - type: default
-image: "open_data_buffalo.png"
+image: "images/open_data_buffalo.png"
 ---

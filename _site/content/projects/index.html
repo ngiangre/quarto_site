@@ -65,13 +65,41 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-image','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-projects'] = new List('listing-projects', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-posts .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: [{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-posts'] = new List('listing-posts', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -139,79 +167,84 @@ ul.task-list{list-style: none;}
 
 
 <div class="grid">
-<section id="welcome-to-my-digital-garden" class="level1 g-col-md-10 g-start-md-2">
-<h1>🌳Welcome to my digital garden🌳</h1>
+<section id="welcome-to-my-digital-garden" class="level1 g-col-7 g-start-3" style="text-align: center">
+<h1 style="text-align: center">🌳Welcome to my digital garden🌳</h1>
 <p><strong>This is where I tend to personal and open source projects. I’m a scientist who loves to investigate the world! Projects are a mixture of scientific communication, coding, and maybe just a collection of writings. Additionally, I may just write a post to record a nascent idea, announcement, standalone essay, or the beginning of a new project! I’ll use GitHub to keep track of progress as well as discussion with others interested in this digital space. I hope you enjoy your stay in my digital space</strong> 😁</p>
 </section>
-<div class="panel-tabset g-col-md-10 g-start-md-2">
+</div>
+<div class="grid">
+<div class="panel-tabset g-col-10 g-start-2">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Projects</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Posts</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<div id="listing-projects" class="quarto-listing quarto-listing-container-table">
-<div class="listing-actions-group">
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div id="listing-projects" class="quarto-listing quarto-listing-container-grid">
+<div class="list grid quarto-listing-cols-5">
+<div class="g-col-1" data-index="0" data-listing-file-modified-sort="1661689592068" data-listing-reading-time-sort="0.005">
+<a href="../../content/projects/buffalo/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="../../content/projects/buffalo/images/open_data_buffalo.png" class="thumbnail-image card-img" style="height: 10em;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Buffalo
+</h5>
+<div class="card-subtitle listing-subtitle">
+Exploring the city through data
 </div>
-
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-</th>
-<th>
-Title
-</th>
-<th>
-Subtitle
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1661392193381" data-listing-reading-time-sort="0.005" data-listing-title-sort="Buffalo" data-listing-filename-sort="index.qmd">
-<td class="listing-image">
-<img src="../../content/projects/buffalo/open_data_buffalo.png" style="height: 10em;">
-</td>
-<td class="listing-title">
-<a href="../../content/projects/buffalo/index.html" class="title">Buffalo</a>
-</td>
-<td class="listing-subtitle">
-Exploring the city throug data
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1661392193382" data-listing-reading-time-sort="0.005" data-listing-title-sort="MCCV" data-listing-filename-sort="index.qmd">
-<td class="listing-image">
-<img src="../../content/projects/mccv/mccv_scheme.jpg" style="height: 10em;">
-</td>
-<td class="listing-title">
-<a href="../../content/projects/mccv/index.html" class="title">MCCV</a>
-</td>
-<td class="listing-subtitle">
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-listing-file-modified-sort="1661689624246" data-listing-reading-time-sort="0.005">
+<a href="../../content/projects/mccv/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="../../content/projects/mccv/images/mccv_scheme.jpg" class="thumbnail-image card-img" style="height: 10em;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+MCCV
+</h5>
+<div class="card-subtitle listing-subtitle">
 Clinical machine learning
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1661392193426" data-listing-reading-time-sort="1.3" data-listing-title-sort="Pediatric Drug Safety" data-listing-filename-sort="index.qmd">
-<td class="listing-image">
-<img src="../../content/projects/pds/med_cover.jpeg" style="height: 10em;">
-</td>
-<td class="listing-title">
-<a href="../../content/projects/pds/index.html" class="title">Pediatric Drug Safety</a>
-</td>
-<td class="listing-subtitle">
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-listing-file-modified-sort="1661908221911" data-listing-reading-time-sort="0.65">
+<a href="../../content/projects/pds/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-center">
+<p class="card-img-top">
+<img src="../../content/projects/pds/images/med_cover.jpeg" class="thumbnail-image card-img" style="height: 10em;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Pediatric Drug Safety
+</h5>
+<div class="card-subtitle listing-subtitle">
 Research, data, and analyses
-</td>
-</tr>
-</tbody>
-
-</table>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<div id="listing-posts" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
 
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </div>
 </div>
 </div>

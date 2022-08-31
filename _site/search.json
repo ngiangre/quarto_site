@@ -4,7 +4,7 @@
     "href": "content/projects/pds/index.html",
     "title": "Pediatric Drug Safety",
     "section": "",
-    "text": "all\npackage\napp\n\n\n\nPediatric Drug Safety Database\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPediatric Drug Safety portal"
+    "text": "Drug safety in children can be affected by a number of dynamic variables such as enzymatic activity and hormonal levels that change during child growth and development. However, tools to predict adverse events in pediatric patients currently do not take into account these dynamics. My PhD advisor, Nicholas Tatonetti, and I developed a pharmacovigilance signal-detection algorithm to identify dynamic adverse events (such as metabolic and psychiatric disorders). We developed a database and a web application that provides the first resource to identify and evaluate drug safety signals across child-development stages. The cover symbolizes the data-driven method of the authors to provide more clarity on drug safety in pediatric patients, as parts of the image become better refined. Cover credit: adapted by Kip Lyall from FG Trade/E+ via Getty Images.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nPDSdatabase\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/projects/buffalo/index.html",
@@ -19,20 +19,6 @@
     "title": "MCCV",
     "section": "",
     "text": "No matching items"
-  },
-  {
-    "objectID": "content/about/index.html",
-    "href": "content/about/index.html",
-    "title": "Nicholas Giangreco",
-    "section": "",
-    "text": ":::"
-  },
-  {
-    "objectID": "content/about/about.html",
-    "href": "content/about/about.html",
-    "title": "Nicholas Giangreco",
-    "section": "",
-    "text": "Hi, I’m Nick 👋\n\n\nI am a data science enthusiast, life-long learner, and student of life.\n\n\nCurrently, I work as a (remote) Quantitative Translational Scientist at Regeneron Pharmaceuticals. Previously, I was a Systems Biology PhD student at Columbia University in New York City.\n\n\nMy homebase is Buffalo, New York, where, as a native of the “All America City”, I am paradoxically indifferent to snow and a very cold person 😬\n\n\nOutside of work, I enjoy spending time with my family, my partner, and carving out time for my hobbies.\n\n\nI’m also interested in rehabilitative science. As a stroke survivor, I like learning about how the body re-learns movement patterns through pilates."
   },
   {
     "objectID": "content/cv/Nicholas_Giangreco_CV.html",
@@ -187,12 +173,5 @@
     "title": "Nicholas Giangreco",
     "section": "PROFESSIONAL MEMBERSHIPS",
     "text": "PROFESSIONAL MEMBERSHIPS\n\nInternational Society of Computational Biology, 2013-2014 & 2017-\nAmerican Heart Association, 2017-2018.\nAmerican Medical Informatics Association, 2017-2018."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nicholas Giangreco",
-    "section": "",
-    "text": "Typing SVG"
   }
 ]
