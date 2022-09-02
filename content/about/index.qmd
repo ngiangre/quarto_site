@@ -4,10 +4,10 @@ page-layout: custom
 ---
 
 
-::: {.column-screen style="text-align: center; font-size:27px"}
+::: {.column-screen style="text-align: center; font-size:18px"}
 ![](headshot.png){width=400px max-width=100%}
 
-<p style="font-size:48px">
+<p style="font-size:27px">
 **Hi, I'm Nick 👋**
 </p>
 
