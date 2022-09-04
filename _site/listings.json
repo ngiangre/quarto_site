@@ -1,27 +1,28 @@
 [
   {
-    "listing": "/content/projects/pds/index.html",
+    "listing": "/content/garden/projects/pds/index.html",
     "items": [
-      "/content/projects/pds/pdsdatabase.html"
+      "/content/garden/projects/pds/pds-database.html"
     ]
   },
   {
-    "listing": "/content/projects/index.html",
-    "items": [
-      "/content/projects/buffalo/index.html",
-      "/content/projects/mccv/index.html",
-      "/content/projects/pds/index.html"
-    ]
-  },
-  {
-    "listing": "/content/projects/buffalo/index.html",
+    "listing": "/content/garden/projects/buffalo/index.html",
     "items": []
   },
   {
-    "listing": "/content/projects/mccv/index.html",
+    "listing": "/content/garden/projects/mccv/index.html",
     "items": [
-      "/content/projects/mccv/mccv_intro.html",
-      "/content/projects/mccv/mccv_package.html"
+      "/content/garden/projects/mccv/mccv-intro.html",
+      "/content/garden/projects/mccv/mccv-package.html"
+    ]
+  },
+  {
+    "listing": "/content/garden/index.html",
+    "items": [
+      "/content/garden/projects/buffalo/index.html",
+      "/content/garden/projects/mccv/index.html",
+      "/content/garden/projects/pds/index.html",
+      "/content/garden/posts/example/index.html"
     ]
   }
 ]

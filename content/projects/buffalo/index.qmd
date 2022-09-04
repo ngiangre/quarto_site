@@ -1,9 +1,0 @@
----
-title: "Buffalo"
-subtitle: Exploring the city through data
-page-layout: full
-image: "images/open_data_buffalo.png"
-listing: 
-    type: table
-    contents: "/*"
----

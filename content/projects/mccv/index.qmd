@@ -1,9 +1,0 @@
----
-title: "MCCV"
-subtitle: Clinical machine learning
-page-layout: full
-image: "images/mccv_scheme.jpg"
-listing: 
-    type: table
-    contents: "/*"
----

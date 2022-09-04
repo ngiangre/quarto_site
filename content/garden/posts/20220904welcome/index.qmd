@@ -1,0 +1,33 @@
+---
+title: "Hello, world!"
+subtitle: "First post! Starting and describing my digital space. "
+image: "images/noun-hi-1994887.svg"
+date: "09/04/2022"
+date-format: "MMMM D, YYYY"
+page-layout: article
+toc: true
+draft: true
+comments:
+  utterances:
+    repo: ngiangre/quarto-site
+---
+
+Hello! This is exciting for a couple of reasons:
+
+-   This is the redesign of my [original website](nickgiangreco.netlify.app)
+
+-   This redesigned website is made using [Quarto](quarto.org)
+
+-   This redesigned website is now hosting my digital garden
+
+In this post, I want to briefly describe:
+
+1.  [The concept of a digital garden, and why I am creating one for myself.](#nick's-digital-garden)
+
+2.  The structure and content of my garden.
+
+3.  how will I "tend to" my digital garden.
+
+4.  What is "growing" in my digital garden (i.e. what is up next).
+
+# Nick's Digital Garden

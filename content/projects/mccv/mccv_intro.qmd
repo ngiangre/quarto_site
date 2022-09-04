@@ -1,3 +1,0 @@
----
-title: "mccv intro"
----

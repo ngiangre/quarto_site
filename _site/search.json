@@ -1,31 +1,31 @@
 [
   {
-    "objectID": "content/projects/pds/index.html",
-    "href": "content/projects/pds/index.html",
+    "objectID": "content/garden/projects/pds/index.html",
+    "href": "content/garden/projects/pds/index.html",
     "title": "Pediatric Drug Safety",
     "section": "",
-    "text": "Drug safety in children can be affected by a number of dynamic variables such as enzymatic activity and hormonal levels that change during child growth and development. However, tools to predict adverse events in pediatric patients currently do not take into account these dynamics. My PhD advisor, Nicholas Tatonetti, and I developed a pharmacovigilance signal-detection algorithm to identify dynamic adverse events (such as metabolic and psychiatric disorders). We developed a database and a web application that provides the first resource to identify and evaluate drug safety signals across child-development stages. The cover symbolizes the data-driven method of the authors to provide more clarity on drug safety in pediatric patients, as parts of the image become better refined. Cover credit: adapted by Kip Lyall from FG Trade/E+ via Getty Images.\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nPDSdatabase\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\n\n\nSubtitle\n\n\n\n\n\n\nPDSdatabase\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/projects/index.html#welcome-to-my-digital-garden",
-    "href": "content/projects/index.html#welcome-to-my-digital-garden",
-    "title": "Nicholas Giangreco",
-    "section": "🌳Welcome to my digital garden🌳",
-    "text": "🌳Welcome to my digital garden🌳\nThis is where I tend to personal and open source projects. I’m a scientist who loves to investigate the world! Projects are a mixture of scientific communication, coding, and maybe just a collection of writings. Additionally, I may just write a post to record a nascent idea, announcement, standalone essay, or the beginning of a new project! I’ll use GitHub to keep track of progress as well as discussion with others interested in this digital space. I hope you enjoy your stay in my digital space 😁"
-  },
-  {
-    "objectID": "content/projects/buffalo/index.html",
-    "href": "content/projects/buffalo/index.html",
+    "objectID": "content/garden/projects/buffalo/index.html",
+    "href": "content/garden/projects/buffalo/index.html",
     "title": "Buffalo",
     "section": "",
-    "text": "No matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\n\n\nSubtitle\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "content/projects/mccv/index.html",
-    "href": "content/projects/mccv/index.html",
+    "objectID": "content/garden/projects/mccv/index.html",
+    "href": "content/garden/projects/mccv/index.html",
     "title": "MCCV",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nmccv intro\n\n\n\n\n\n\nmccv package\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\n\n\nSubtitle\n\n\nCategories\n\n\n\n\n\n\nmccv intro\n\n\n\n \n\n\n\n\n\nbackground,motivation,technique\n\n\n\n\nmccv package\n\n\n\n\n\n\n\npython package\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/garden/index.html#welcome-to-my-digital-garden",
+    "href": "content/garden/index.html#welcome-to-my-digital-garden",
+    "title": "Nicholas Giangreco",
+    "section": "🌳Welcome to my digital garden🌳",
+    "text": "🌳Welcome to my digital garden🌳\nA digital garden is an online space for sharing and cultivating knowledge 🌈 It embodies the notion of working out loud 🤓\n\nProjects ➡️ Collection of code, notebooks, packages, and/or writings\nPosts ➡️ Announcements, standalone essay, or opinions\nDiscussion ➡️ Github issues"
   },
   {
     "objectID": "content/cv/Nicholas_Giangreco_CV.html",

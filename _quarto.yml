@@ -19,13 +19,12 @@ website:
         href: https://www.linkedin.com/in/nickgiangreco/
       - text: "About"
         file : content/about/index.qmd
-      - text: "Projects"
-        file: content/projects/index.qmd
+      - text: "Digital Garden"
+        file: content/garden/index.qmd
       - text: "CV"
         href: content/cv/Nicholas_Giangreco_CV.pdf
-  page-footer:
-    background: transparent
-    left: Made throug pain, sweat, and tears
+  open-graph:
+    locale: en_US
 
 format:
   html:
@@ -33,6 +32,5 @@ format:
     smooth-scroll: true
     theme: pulse
     css: styles.css
-    toc: false
 
 editor: source

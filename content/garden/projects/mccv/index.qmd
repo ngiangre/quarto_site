@@ -1,0 +1,12 @@
+---
+title: "MCCV"
+subtitle: Clinical machine learning
+about: marquee
+image: "images/mccv_scheme.jpg"
+listing: 
+    type: table
+    fields: [title, image, subtitle, categories]
+    contents: "/mccv-*"
+---
+
+Monte Carlo Cross Validation (MCCV) is a learning framework designed to generalize the prediction performance of machine learning models. 
