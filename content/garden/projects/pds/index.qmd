@@ -4,7 +4,8 @@ subtitle: Research, data, and analyses
 about: marquee
 image: "images/med_cover.jpeg"
 listing:
-    type: table
+    type: default
+    image-align: left
     fields: [title, image, subtitle]
     contents: "/pds-*"
 ---

@@ -64,9 +64,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author"],
+      searchColumns: ["listing-title","listing-author","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -156,62 +156,48 @@ ul.task-list{list-style: none;}
 <p>Drug safety in children can be affected by a number of dynamic variables such as enzymatic activity and hormonal levels that change during child growth and development. However, tools to predict adverse events in pediatric patients currently do not take into account these dynamics. My PhD advisor, Nicholas Tatonetti, and I developed a pharmacovigilance signal-detection algorithm to identify dynamic adverse events (such as metabolic and psychiatric disorders). We developed a database and a web application that provides the first resource to identify and evaluate drug safety signals across child-development stages. The cover symbolizes the data-driven method of the authors to provide more clarity on drug safety in pediatric patients, as parts of the image become better refined. Cover credit: adapted by Kip Lyall from FG Trade/E+ via Getty Images.</p>
 
 
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Order By</option>
-       <option value="index" data-direction="asc">Default</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Title
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-listing-file-modified-sort="1661392193428" data-listing-reading-time-sort="0.005">
+<div class="thumbnail">
+<a href="../../../../content/garden/projects/pds/pds-database.html">
+<div class="thumbnail-image">
 </div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
-</th>
-<th>
-</th>
-<th>
-Subtitle
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1661392193428" data-listing-reading-time-sort="0.005" data-listing-title-sort="PDSdatabase" data-listing-filename-sort="pds-database.qmd">
-<td class="listing-title">
-<a href="../../../../content/garden/projects/pds/pds-database.html" class="title">PDSdatabase</a>
-</td>
-<td class="listing-image">
-<div class="table-img" style="height: 40px;">
-&nbsp;
+</a><p><a href="../../../../content/garden/projects/pds/pds-database.html"></a></p>
 </div>
-</td>
-<td class="listing-subtitle">
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1662315447218" data-listing-filename-sort="pds-database.html">
-<td class="listing-title">
-</td>
-<td class="listing-image">
-<div class="table-img" style="height: 40px;">
-&nbsp;
+<div class="body">
+<a href="../../../../content/garden/projects/pds/pds-database.html">
+<h3 class="no-anchor listing-title">
+PDSdatabase
+</h3>
+<div class="listing-subtitle">
 </div>
-</td>
-<td class="listing-subtitle">
-</td>
-</tr>
-</tbody>
-</table>
+</a>
+</div>
+<div class="metadata">
+<a href="../../../../content/garden/projects/pds/pds-database.html"> </a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-listing-file-modified-sort="1662315662666">
+<div class="thumbnail">
+<a href="../../../../content/garden/projects/pds/pds-database.html">
+<div class="thumbnail-image">
+</div>
+</a><p><a href="../../../../content/garden/projects/pds/pds-database.html"></a></p>
+</div>
+<div class="body">
+<a href="../../../../content/garden/projects/pds/pds-database.html">
+<h3 class="no-anchor listing-title">
+</h3>
+<div class="listing-subtitle">
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../../../../content/garden/projects/pds/pds-database.html"> </a>
+</div>
+</div>
+</div>
 <div class="listing-no-matching d-none">
 No matching items
 </div>

@@ -4,7 +4,8 @@ subtitle: Exploring the city through data
 image: "images/open_data_buffalo.png"
 about: marquee
 listing: 
-    type: table
+    type: default
+    image-align: left
     fields: [title, image, subtitle]
     contents: "/buffalo*"
 ---
