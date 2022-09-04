@@ -14,9 +14,9 @@ listing:
     sort-ui: false
   - id: posts
     contents: "posts/*/index.qmd"
-    type: table
+    type: default
+    image-align: left
     fields: [title, subtitle, date, image]
-    image-height: 10em
     sort-ui: true
 ---
 
