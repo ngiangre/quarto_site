@@ -9,6 +9,6 @@ page-layout: article
 toc: true
 comments:
   utterances:
-    repo: ngiangre/quarto-site
+    repo: ngiangre/quarto_site
 ---
 
