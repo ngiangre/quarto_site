@@ -1,0 +1,21 @@
+---
+title: "PDSportal"
+subtitle: ""
+categories:
+    - Portal
+    - R Shiny
+    - Web app
+image: "images/noun-portal-3859593.svg"
+about: 
+  template: marquee
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/ngiangre/pdsportal
+    - icon: badge-cc-fill
+      text: Icon attribute
+      href: https://thenounproject.com/browse/icons/term/portal/
+comments:
+  utterances:
+    repo: ngiangre/pdsportal
+---

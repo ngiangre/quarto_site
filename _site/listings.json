@@ -2,7 +2,8 @@
   {
     "listing": "/content/garden/projects/pds/index.html",
     "items": [
-      "/content/garden/projects/pds/pds-database.html"
+      "/content/garden/projects/pds/pds-database.html",
+      "/content/garden/projects/pds/pds-portal.html"
     ]
   },
   {
@@ -12,8 +13,8 @@
   {
     "listing": "/content/garden/projects/mccv/index.html",
     "items": [
-      "/content/garden/projects/mccv/mccv-intro.html",
-      "/content/garden/projects/mccv/mccv-package.html"
+      "/content/garden/projects/mccv/mccv-package.html",
+      "/content/garden/projects/mccv/mccv-simulation.html"
     ]
   },
   {

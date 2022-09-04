@@ -1,0 +1,20 @@
+---
+title: "mccv simulation"
+subtitle: ""
+categories:
+    - python
+    - biomarker
+    - distributions
+    - simulation
+    - differential expression
+image: "images/noun-simulation-3843789.svg"
+about: 
+  template: marquee
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/ngiangre/mccv
+    - icon: badge-cc-fill
+      text: Icon attribute
+      href: https://thenounproject.com/icon/simulation-3843789/
+---

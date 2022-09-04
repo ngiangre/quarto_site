@@ -1,3 +1,19 @@
 ---
 title: "PDSdatabase"
+subtitle: ""
+categories:
+    - python package
+image: "images/noun-database-1035249.svg"
+about: 
+  template: marquee
+  links: 
+    - icon: github
+      text: Github
+      href: https://github.com/ngiangre/pdsdatabase
+    - icon: badge-cc-fill
+      text: Icon attribute
+      href: https://thenounproject.com/browse/icons/term/database/
+comments:
+  utterances:
+    repo: ngiangre/pdsdatabase
 ---
