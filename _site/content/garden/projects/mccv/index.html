@@ -89,7 +89,7 @@ ul.task-list{list-style: none;}
 
 <link rel="stylesheet" href="../../../../styles.css">
 <meta property="og:title" content="Nicholas Giangreco - MCCV">
-<meta property="og:description" content="Clinical machine learning">
+<meta property="og:description" content="Clinical machine learning framework">
 <meta property="og:image" content="images/mccv_scheme.jpg">
 <meta property="og:site-name" content="Nicholas Giangreco">
 <meta property="og:locale" content="en_US">
@@ -148,12 +148,25 @@ ul.task-list{list-style: none;}
     <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">MCCV</h1>
-<p class="subtitle lead">Clinical machine learning</p>
+<p class="subtitle lead">Clinical machine learning framework</p>
 </div>
 <div class="quarto-title-meta">
   </div>
 </header> <main class="content column-page" id="quarto-document-content">
-<p>Monte Carlo Cross Validation (MCCV) is a learning framework designed to generalize the prediction performance of machine learning models.</p>
+<p>Monte Carlo Cross Validation (MCCV) is a machine learning framework designed to estimate clinical outcomes and effects in patient cohorts to generate clinical and biological hypotheses. MCCV was used to in the following publications:</p>
+<ol type="1">
+<li>Giangreco NP, Lebreton G, Restaino S, Jane Farr M, Zorn E, Colombo PC, Patel J, Levine R, Truby L, Soni RK, Leprince P, Kobashigawa J, Tatonetti NP, Fine BM. Plasma kallikrein predicts primary graft dysfunction after heart transplant. J Heart Lung Transplant. 2021 Jul 10:S1053-2498(21)02391-3. doi: 10.1016/j.healun.2021.07.001.</li>
+<li>Giangreco, N.P., Lebreton, G., Restaino, S. et al.&nbsp;Alterations in the kallikrein-kinin system predict death after heart transplant. Sci Rep 12, 14167 (2022). https://doi.org/10.1038/s41598-022-18573-2</li>
+</ol>
+<p>The prediction scheme, Monte Carlo Cross Validation (MCCV), is composed of 5 steps repeated multiple times (e.g.&nbsp;N=200):</p>
+<ol type="1">
+<li>Split the data into 85% training and 15% validation sets.</li>
+<li>Separately normalize, or subtract the sample mean and divide by the sample standard deviation, the training and testing data.</li>
+<li>Using only the sampled training data, compute ten-fold cross validation and choose the top performing model parameters for predicting the response.</li>
+<li>Refit the training dataset using the top-prediction model parameters determined in step 3.</li>
+<li>Predict patient response in the yet-to-be-seen validation set using the refit model calculated in step 4.</li>
+</ol>
+<p>The above publications resulted from my PhD work at Columbia University. In my free time after my PhD, I put together the python functions and scripts as a package for MCCV routines. Additionally, I am conducting a simulation experiment to evaluate differential expression for different biomarker distributions.</p>
 
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
