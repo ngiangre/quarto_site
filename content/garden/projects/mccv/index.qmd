@@ -1,5 +1,5 @@
 ---
-title: "MCCV"
+title: "Monte Carlo Cross Validation"
 subtitle: "Clinical machine learning framework"
 about: marquee
 image: "images/mccv_scheme.jpg"
@@ -23,4 +23,4 @@ Monte Carlo Cross Validation (MCCV) is a machine learning framework designed to 
    (4) Refit the training dataset using the top-prediction model parameters determined in step 3.
    (5) Predict patient response in the yet-to-be-seen validation set using the refit model calculated in step 4.
    
-The above publications resulted from my PhD work at Columbia University. In my free time after my PhD, I put together the python functions and scripts as a package for MCCV routines. Additionally, I am conducting a simulation experiment to evaluate differential expression for different biomarker distributions. 
+The above publications resulted from my PhD work at Columbia University. In my free time after my PhD, I put together the python functions and scripts as a package for MCCV routines. Additionally, I am conducting a simulation experiment to evaluate outcome prediction for different biomarker distributions. 

@@ -1,24 +1,52 @@
 [
   {
+    "objectID": "content/garden/projects/pds/pds-portal.html",
+    "href": "content/garden/projects/pds/pds-portal.html",
+    "title": "PDSportal",
+    "section": "",
+    "text": "Giangreco NP, Tatonetti NP. A database of pediatric drug effects to evaluate ontogenic mechanisms from child growth and development. Med (N Y). 2022 Jun 20:S2666-6340(22)00232-X. doi: 10.1016/j.medj.2022.06.001. Epub ahead of print. PMID: 35752163.\nThe PDSportal contains an Overview section with further instructions on how to use it. Feel free to play around!"
+  },
+  {
+    "objectID": "content/garden/projects/pds/pds-database.html",
+    "href": "content/garden/projects/pds/pds-database.html",
+    "title": "PDSdatabase",
+    "section": "",
+    "text": "An R data package to connect with real-world drug safety data in children. See the github link for details."
+  },
+  {
     "objectID": "content/garden/projects/pds/index.html",
     "href": "content/garden/projects/pds/index.html",
     "title": "Pediatric Drug Safety",
     "section": "",
-    "text": "PDSdatabase\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPDSportal\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
+    "text": "PDSdatabase\n\n\nAn R data package to access publicly available pediatric drug safety information\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nPDSportal\n\n\nR shinydashboard application to access publicly available pediatric drug safety information\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n \n\n\n\n\nNo matching items"
   },
   {
     "objectID": "content/garden/projects/buffalo/index.html",
     "href": "content/garden/projects/buffalo/index.html",
-    "title": "Buffalo",
+    "title": "Buffalo & Western New York",
     "section": "",
     "text": "No matching items"
   },
   {
     "objectID": "content/garden/projects/mccv/index.html",
     "href": "content/garden/projects/mccv/index.html",
-    "title": "MCCV",
+    "title": "Monte Carlo Cross Validation",
     "section": "",
-    "text": "Giangreco NP, Lebreton G, Restaino S, Jane Farr M, Zorn E, Colombo PC, Patel J, Levine R, Truby L, Soni RK, Leprince P, Kobashigawa J, Tatonetti NP, Fine BM. Plasma kallikrein predicts primary graft dysfunction after heart transplant. J Heart Lung Transplant. 2021 Jul 10:S1053-2498(21)02391-3. doi: 10.1016/j.healun.2021.07.001.\nGiangreco, N.P., Lebreton, G., Restaino, S. et al. Alterations in the kallikrein-kinin system predict death after heart transplant. Sci Rep 12, 14167 (2022). https://doi.org/10.1038/s41598-022-18573-2\n\nThe prediction scheme, Monte Carlo Cross Validation (MCCV), is composed of 5 steps repeated multiple times (e.g. N=200):\n\nSplit the data into 85% training and 15% validation sets.\nSeparately normalize, or subtract the sample mean and divide by the sample standard deviation, the training and testing data.\nUsing only the sampled training data, compute ten-fold cross validation and choose the top performing model parameters for predicting the response.\nRefit the training dataset using the top-prediction model parameters determined in step 3.\nPredict patient response in the yet-to-be-seen validation set using the refit model calculated in step 4.\n\nThe above publications resulted from my PhD work at Columbia University. In my free time after my PhD, I put together the python functions and scripts as a package for MCCV routines. Additionally, I am conducting a simulation experiment to evaluate differential expression for different biomarker distributions.\n\n\n\n\n\n\n  \n\n\n\n\nmccv package\n\n\n\n\n\n\npython package\n\n\n \n\n\n \n\n\n\n\n  \n\n\n\n\nmccv simulation\n\n\n\n\n\n\npython\n\n\nbiomarker\n\n\ndistributions\n\n\nsimulation\n\n\ndifferential expression\n\n\n \n\n\n \n\n\n\n\nNo matching items"
+    "text": "Giangreco NP, Lebreton G, Restaino S, Jane Farr M, Zorn E, Colombo PC, Patel J, Levine R, Truby L, Soni RK, Leprince P, Kobashigawa J, Tatonetti NP, Fine BM. Plasma kallikrein predicts primary graft dysfunction after heart transplant. J Heart Lung Transplant. 2021 Jul 10:S1053-2498(21)02391-3. doi: 10.1016/j.healun.2021.07.001.\nGiangreco, N.P., Lebreton, G., Restaino, S. et al. Alterations in the kallikrein-kinin system predict death after heart transplant. Sci Rep 12, 14167 (2022). https://doi.org/10.1038/s41598-022-18573-2\n\nThe prediction scheme, Monte Carlo Cross Validation (MCCV), is composed of 5 steps repeated multiple times (e.g. N=200):\n\nSplit the data into 85% training and 15% validation sets.\nSeparately normalize, or subtract the sample mean and divide by the sample standard deviation, the training and testing data.\nUsing only the sampled training data, compute ten-fold cross validation and choose the top performing model parameters for predicting the response.\nRefit the training dataset using the top-prediction model parameters determined in step 3.\nPredict patient response in the yet-to-be-seen validation set using the refit model calculated in step 4.\n\nThe above publications resulted from my PhD work at Columbia University. In my free time after my PhD, I put together the python functions and scripts as a package for MCCV routines. Additionally, I am conducting a simulation experiment to evaluate outcome prediction for different biomarker distributions.\n\n\n\n\n\n\n  \n\n\n\n\nMCCV for Biomarker Prediction\n\n\nA simulation study to evaluate prediction of clinical outcomes and responses using biomarker data\n\n\n\n\npython\n\n\nbiomarker\n\n\ndistributions\n\n\nsimulation\n\n\nprediction\n\n\ndifferential expression\n\n\n \n\n\n \n\n\n\n\n  \n\n\n\n\nMonte Carlo Cross Validation\n\n\nA python package for implementing MCCV\n\n\n\n\npython\n\n\npackage\n\n\n \n\n\n \n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "content/garden/projects/mccv/mccv-simulation.html",
+    "href": "content/garden/projects/mccv/mccv-simulation.html",
+    "title": "MCCV for Biomarker Prediction",
+    "section": "",
+    "text": "The motivation for this study is to compare MCCV and traditional hypothesis testing, such as the t-test, as methods for learning outcomes from varied biomarker distributions. The work is being implemented in a collection of notebooks in the github repository. The evaluation results and presentation is being made as Reavel.js slides."
+  },
+  {
+    "objectID": "content/garden/projects/mccv/mccv-package.html",
+    "href": "content/garden/projects/mccv/mccv-package.html",
+    "title": "Monte Carlo Cross Validation",
+    "section": "",
+    "text": "MCCV routines implemented within a python class. See the github for code, details, and issues."
   },
   {
     "objectID": "content/garden/index.html#welcome-to-my-digital-garden",

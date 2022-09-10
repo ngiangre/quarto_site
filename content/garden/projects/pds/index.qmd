@@ -1,6 +1,6 @@
 ---
 title: "Pediatric Drug Safety"
-subtitle: Research, data, and analyses
+subtitle: Research, data, and analyses on reported adverse medication outcomes across childood
 about: marquee
 image: "images/med_cover.jpeg"
 listing:

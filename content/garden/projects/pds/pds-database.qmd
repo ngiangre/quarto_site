@@ -1,8 +1,10 @@
 ---
 title: "PDSdatabase"
-subtitle: ""
+subtitle: "An R data package to access publicly available pediatric drug safety information"
 categories:
-    - python package
+    - R 
+    - database
+    - package
 image: "images/noun-database-1035249.svg"
 about: 
   template: marquee
@@ -17,3 +19,5 @@ comments:
   utterances:
     repo: ngiangre/pdsdatabase
 ---
+
+An R data package to connect with real-world drug safety data in children. See the github link for details.
