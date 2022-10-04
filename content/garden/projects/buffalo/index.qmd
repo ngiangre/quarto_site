@@ -10,4 +10,10 @@ listing:
     contents: "/buffalo*"
 ---
 
+```{r}
+library(leaflet)
+m <- leaflet() %>% addTiles() %>% addProviderTiles(provider="HERE")
+m %>% leaflet::setView(-78.878, 42.886, zoom = 11)
+```
+
 Moving back to my hometown, Buffalo NY, has been a fantastic experience. Buffalo and Western New York generally speaking has been going through tremendous economic development and growth over the past decade. I wasn't able to appreciate what the city and surrounding area had to offer until recently. As a citizen scientist, I want to explore Buffalo and WNY through data. I plan on using publicly available data, like from the [Open Data Buffalo initiative](https://www.buffalony.gov/1257/Open-Data-Buffalo), to explore, understand, and communicate about my hometown and why I love living here. Stay tuned for more on this project!
